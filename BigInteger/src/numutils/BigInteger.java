@@ -495,7 +495,6 @@ public class BigInteger implements Comparable<BigInteger>, Cloneable {
 	}
 
 	public static void main(String[] args) throws IOException {
-		System.out.println(new BigInteger("0x3").modInverse(new BigInteger("0x3e")));
 		String theAnswerToLifeTheUniverseAndEverything = "42";
 		BigInteger N = new BigInteger("0x131d50c588d428939c8ddec0212e450d");
 		BigInteger e = new BigInteger("0xb");
